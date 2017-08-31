@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A65B04A61F527844008DAB60 /* FYSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = A65B04A51F527844008DAB60 /* FYSlider.m */; };
+		A65B04AC1F52CD52008DAB60 /* UINavigationController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A65B04AB1F52CD52008DAB60 /* UINavigationController+Rotation.m */; };
+		A65B04AF1F52CDD4008DAB60 /* UIViewController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A65B04AE1F52CDD4008DAB60 /* UIViewController+Rotation.m */; };
+		A65B04CB1F53D5B9008DAB60 /* FYActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = A65B04CA1F53D5B9008DAB60 /* FYActivityView.m */; };
+		A65B04D91F56AB8F008DAB60 /* FYTouchMovedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A65B04D81F56AB8E008DAB60 /* FYTouchMovedView.m */; };
+		A65B04DC1F56C57C008DAB60 /* FYNetWorkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A65B04DB1F56C57C008DAB60 /* FYNetWorkingManager.m */; };
 		A6AC89401F50045F00131399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AC893F1F50045F00131399 /* main.m */; };
 		A6AC89431F50045F00131399 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AC89421F50045F00131399 /* AppDelegate.m */; };
 		A6AC89461F50045F00131399 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AC89451F50045F00131399 /* ViewController.m */; };
-		A6AC89491F50045F00131399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6AC89471F50045F00131399 /* Main.storyboard */; };
 		A6AC894B1F50045F00131399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6AC894A1F50045F00131399 /* Assets.xcassets */; };
 		A6AC894E1F50045F00131399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6AC894C1F50045F00131399 /* LaunchScreen.storyboard */; };
 		A6AC89591F50046000131399 /* FYVideoPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AC89581F50046000131399 /* FYVideoPlayerDemoTests.m */; };
 		A6AC89641F50046000131399 /* FYVideoPlayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AC89631F50046000131399 /* FYVideoPlayerDemoUITests.m */; };
+		A6AC89771F500B0B00131399 /* FYPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AC89761F500B0B00131399 /* FYPlayerView.m */; };
+		A6AC897A1F50116E00131399 /* FYPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6AC89791F50116D00131399 /* FYPlayer.bundle */; };
+		A6AC897D1F50181800131399 /* FYPlayerToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AC897C1F50181800131399 /* FYPlayerToolView.m */; };
+		C4C3326CED0F3B0F044AFB58 /* libPods-FYVideoPlayerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E386104D2B4C89D5F179DFFC /* libPods-FYVideoPlayerDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +44,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		939290FAFEBA126A27A866B9 /* Pods-FYVideoPlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYVideoPlayerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYVideoPlayerDemo/Pods-FYVideoPlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A65B04A41F527844008DAB60 /* FYSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYSlider.h; sourceTree = "<group>"; };
+		A65B04A51F527844008DAB60 /* FYSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYSlider.m; sourceTree = "<group>"; };
+		A65B04AA1F52CD52008DAB60 /* UINavigationController+Rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Rotation.h"; sourceTree = "<group>"; };
+		A65B04AB1F52CD52008DAB60 /* UINavigationController+Rotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Rotation.m"; sourceTree = "<group>"; };
+		A65B04AD1F52CDD4008DAB60 /* UIViewController+Rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Rotation.h"; sourceTree = "<group>"; };
+		A65B04AE1F52CDD4008DAB60 /* UIViewController+Rotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Rotation.m"; sourceTree = "<group>"; };
+		A65B04C91F53D5B9008DAB60 /* FYActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYActivityView.h; sourceTree = "<group>"; };
+		A65B04CA1F53D5B9008DAB60 /* FYActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYActivityView.m; sourceTree = "<group>"; };
+		A65B04D71F56AB8E008DAB60 /* FYTouchMovedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYTouchMovedView.h; sourceTree = "<group>"; };
+		A65B04D81F56AB8E008DAB60 /* FYTouchMovedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTouchMovedView.m; sourceTree = "<group>"; };
+		A65B04DA1F56C57C008DAB60 /* FYNetWorkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNetWorkingManager.h; sourceTree = "<group>"; };
+		A65B04DB1F56C57C008DAB60 /* FYNetWorkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNetWorkingManager.m; sourceTree = "<group>"; };
 		A6AC893B1F50045F00131399 /* FYVideoPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYVideoPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6AC893F1F50045F00131399 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6AC89411F50045F00131399 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A6AC89421F50045F00131399 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A6AC89441F50045F00131399 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A6AC89451F50045F00131399 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A6AC89481F50045F00131399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6AC894A1F50045F00131399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6AC894D1F50045F00131399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6AC894F1F50045F00131399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +72,13 @@
 		A6AC895F1F50046000131399 /* FYVideoPlayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYVideoPlayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6AC89631F50046000131399 /* FYVideoPlayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYVideoPlayerDemoUITests.m; sourceTree = "<group>"; };
 		A6AC89651F50046000131399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6AC89751F500B0B00131399 /* FYPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYPlayerView.h; sourceTree = "<group>"; };
+		A6AC89761F500B0B00131399 /* FYPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYPlayerView.m; sourceTree = "<group>"; };
+		A6AC89791F50116D00131399 /* FYPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FYPlayer.bundle; sourceTree = "<group>"; };
+		A6AC897B1F50181800131399 /* FYPlayerToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYPlayerToolView.h; sourceTree = "<group>"; };
+		A6AC897C1F50181800131399 /* FYPlayerToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYPlayerToolView.m; sourceTree = "<group>"; };
+		E386104D2B4C89D5F179DFFC /* libPods-FYVideoPlayerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FYVideoPlayerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64E9FDC26E02C774E5CDDDC /* Pods-FYVideoPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYVideoPlayerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYVideoPlayerDemo/Pods-FYVideoPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C3326CED0F3B0F044AFB58 /* libPods-FYVideoPlayerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +107,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		016492DA38019A2B98431155 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				939290FAFEBA126A27A866B9 /* Pods-FYVideoPlayerDemo.debug.xcconfig */,
+				F64E9FDC26E02C774E5CDDDC /* Pods-FYVideoPlayerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4CF746672009710D719129F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E386104D2B4C89D5F179DFFC /* libPods-FYVideoPlayerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A6AC89321F50045F00131399 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +131,8 @@
 				A6AC89571F50046000131399 /* FYVideoPlayerDemoTests */,
 				A6AC89621F50046000131399 /* FYVideoPlayerDemoUITests */,
 				A6AC893C1F50045F00131399 /* Products */,
+				016492DA38019A2B98431155 /* Pods */,
+				A4CF746672009710D719129F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +149,11 @@
 		A6AC893D1F50045F00131399 /* FYVideoPlayerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A6AC89711F50097A00131399 /* FYPlayer */,
 				A6AC89411F50045F00131399 /* AppDelegate.h */,
 				A6AC89421F50045F00131399 /* AppDelegate.m */,
 				A6AC89441F50045F00131399 /* ViewController.h */,
 				A6AC89451F50045F00131399 /* ViewController.m */,
-				A6AC89471F50045F00131399 /* Main.storyboard */,
 				A6AC894A1F50045F00131399 /* Assets.xcassets */,
 				A6AC894C1F50045F00131399 /* LaunchScreen.storyboard */,
 				A6AC894F1F50045F00131399 /* Info.plist */,
@@ -140,6 +188,38 @@
 			path = FYVideoPlayerDemoUITests;
 			sourceTree = "<group>";
 		};
+		A6AC89711F50097A00131399 /* FYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A6AC89781F5010A800131399 /* resource */,
+				A6AC89751F500B0B00131399 /* FYPlayerView.h */,
+				A6AC89761F500B0B00131399 /* FYPlayerView.m */,
+				A6AC897B1F50181800131399 /* FYPlayerToolView.h */,
+				A6AC897C1F50181800131399 /* FYPlayerToolView.m */,
+				A65B04A41F527844008DAB60 /* FYSlider.h */,
+				A65B04A51F527844008DAB60 /* FYSlider.m */,
+				A65B04C91F53D5B9008DAB60 /* FYActivityView.h */,
+				A65B04CA1F53D5B9008DAB60 /* FYActivityView.m */,
+				A65B04D71F56AB8E008DAB60 /* FYTouchMovedView.h */,
+				A65B04D81F56AB8E008DAB60 /* FYTouchMovedView.m */,
+				A65B04DA1F56C57C008DAB60 /* FYNetWorkingManager.h */,
+				A65B04DB1F56C57C008DAB60 /* FYNetWorkingManager.m */,
+				A65B04AA1F52CD52008DAB60 /* UINavigationController+Rotation.h */,
+				A65B04AB1F52CD52008DAB60 /* UINavigationController+Rotation.m */,
+				A65B04AD1F52CDD4008DAB60 /* UIViewController+Rotation.h */,
+				A65B04AE1F52CDD4008DAB60 /* UIViewController+Rotation.m */,
+			);
+			path = FYPlayer;
+			sourceTree = "<group>";
+		};
+		A6AC89781F5010A800131399 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				A6AC89791F50116D00131399 /* FYPlayer.bundle */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6AC89681F50046000131399 /* Build configuration list for PBXNativeTarget "FYVideoPlayerDemo" */;
 			buildPhases = (
+				A13C1C1F794A97A1F6B9C9F5 /* [CP] Check Pods Manifest.lock */,
 				A6AC89371F50045F00131399 /* Sources */,
 				A6AC89381F50045F00131399 /* Frameworks */,
 				A6AC89391F50045F00131399 /* Resources */,
+				2B2193AC18F2BE914431C42F /* [CP] Embed Pods Frameworks */,
+				A18BFFE7B06D1A032FDF8A89 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +290,7 @@
 				TargetAttributes = {
 					A6AC893A1F50045F00131399 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 23PE463BSD;
 						ProvisioningStyle = Automatic;
 					};
 					A6AC89531F50046000131399 = {
@@ -248,7 +332,7 @@
 			files = (
 				A6AC894E1F50045F00131399 /* LaunchScreen.storyboard in Resources */,
 				A6AC894B1F50045F00131399 /* Assets.xcassets in Resources */,
-				A6AC89491F50045F00131399 /* Main.storyboard in Resources */,
+				A6AC897A1F50116E00131399 /* FYPlayer.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +352,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B2193AC18F2BE914431C42F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYVideoPlayerDemo/Pods-FYVideoPlayerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A13C1C1F794A97A1F6B9C9F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A18BFFE7B06D1A032FDF8A89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYVideoPlayerDemo/Pods-FYVideoPlayerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A6AC89371F50045F00131399 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65B04DC1F56C57C008DAB60 /* FYNetWorkingManager.m in Sources */,
+				A6AC89771F500B0B00131399 /* FYPlayerView.m in Sources */,
+				A65B04D91F56AB8F008DAB60 /* FYTouchMovedView.m in Sources */,
+				A6AC897D1F50181800131399 /* FYPlayerToolView.m in Sources */,
+				A65B04AC1F52CD52008DAB60 /* UINavigationController+Rotation.m in Sources */,
 				A6AC89461F50045F00131399 /* ViewController.m in Sources */,
 				A6AC89431F50045F00131399 /* AppDelegate.m in Sources */,
 				A6AC89401F50045F00131399 /* main.m in Sources */,
+				A65B04AF1F52CDD4008DAB60 /* UIViewController+Rotation.m in Sources */,
+				A65B04A61F527844008DAB60 /* FYSlider.m in Sources */,
+				A65B04CB1F53D5B9008DAB60 /* FYActivityView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +451,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A6AC89471F50045F00131399 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A6AC89481F50045F00131399 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A6AC894C1F50045F00131399 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -422,23 +554,31 @@
 		};
 		A6AC89691F50046000131399 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939290FAFEBA126A27A866B9 /* Pods-FYVideoPlayerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 23PE463BSD;
 				INFOPLIST_FILE = FYVideoPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YHCRT.FYVideoPlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		A6AC896A1F50046000131399 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F64E9FDC26E02C774E5CDDDC /* Pods-FYVideoPlayerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 23PE463BSD;
 				INFOPLIST_FILE = FYVideoPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YHCRT.FYVideoPlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
@@ -507,6 +647,7 @@
 				A6AC896A1F50046000131399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6AC896B1F50046000131399 /* Build configuration list for PBXNativeTarget "FYVideoPlayerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +656,7 @@
 				A6AC896D1F50046000131399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6AC896E1F50046000131399 /* Build configuration list for PBXNativeTarget "FYVideoPlayerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +665,7 @@
 				A6AC89701F50046000131399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
