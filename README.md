@@ -4,7 +4,11 @@ AVPlayer视频播放器
 
 ## 使用
 ` FYPlayerView * play = [[FYPlayerView alloc]initWithFrame:CGRectMake(0, 100,FYScreenWidth , 200)];
+
  play.url = [NSURL URLWithString:@"http://wvideo.spriteapp.cn/video/2016/1203/58425ad2a0c1d_wpd.mp4"];
+ 
  play.videoName = @"百思不得姐第52期";
+ 
  [play playVideo];`
+ 
  
